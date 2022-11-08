@@ -1,0 +1,29 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "compile:sass":"node-sass sass/main.scss public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resetmerlin/twitter.git"
+  },
+  "author": "Merlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resetmerlin/twitter/issues"
+  },
+  "homepage": "https://github.com/resetmerlin/twitter#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
+    "sass": "^1.56.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
